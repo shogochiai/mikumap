@@ -1,0 +1,14 @@
+chats {
+  permit : push;
+  rule : true;
+}
+
+chats {
+  permit : query, on(push);
+  rule : true;
+}
+
+rooms {
+  permit : set, query, on(set);
+  rule : true;
+}
