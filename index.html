@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <title>Mikumap ミクっぽさあるリアルタイム共有マインドマップ</title>
+  <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/themes/smoothness/jquery-ui.css" />
+  <link rel="stylesheet" href="css/bootstrap-override.css" />
+  <link rel="stylesheet" href="css/index.css" />
+</head>
+<body>
+  <div class="header">
+    <h1 class="index--logo"><img class="logo" src="img/logo.png" alt="Mikumap on Milkcocoa" /></h1>
+  </div>
+  <div class="header navbar navbar-default" role="navigation">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle"
+          data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li class="header--rooms"><a href="rooms.html">
+              <i class="btn fa fa-info"></i>rooms</a></li>
+          <li class="header--aboutme"><a href="https://twitter.com/_sgtn">
+            <i class="btn fa fa-info"></i>twitter</a></li>
+          <li class="header--howtouse"><a href="howtouse.html">
+            <i class="btn fa fa-info"></i>help</a></li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </div>
+  <div class="index--container--room">
+    <p class="index--room-message">create your room</p>
+    <input type="text" class="index--create-room"></input>
+  </div>
+
+  <script src="http://cdn.mlkcca.com/v0.2.8/milkcocoa.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>

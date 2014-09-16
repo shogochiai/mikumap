@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>Mikumap ミクっぽさあるリアルタイム共有マインドマップ</title>
+    <link href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/themes/smoothness/jquery-ui.css" rel="stylesheet"/>
+    <link href="http://cdn.datatables.net/1.10.2/css/jquery.dataTables.css" rel="stylesheet">
+    <link href="css/rooms.css" rel="stylesheet">
+  </head>
+  <body>
+    <table id="rooms" class="display" cellspacing="0" width="100%">
+      <thead>
+        <tr>
+          <th>name</th>
+          <th>comments</th>
+          <th>latest comment</th>
+          <th>start date</th>
+        </tr>
+      </thead>
+
+      <tfoot>
+        <tr>
+          <th>name</th>
+          <th>comments</th>
+          <th>latest comment</th>
+          <th>start date</th>
+        </tr>
+      </tfoot>
+
+      <tbody id="records">
+        <tr >
+          <th><a class="rooms--roomlist" href="mikumap.html">root</a></th>
+          <th>0</th>
+          <th>-</th>
+          <th>-</th>
+        </tr>
+      </tbody>
+    </table>
+
+    <script src="http://cdn.mlkcca.com/v0.2.8/milkcocoa.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.2/js/jquery.dataTables.min.js"></script>
+    <script src="js/rooms.js"></script>
+  </body>
+</html>
