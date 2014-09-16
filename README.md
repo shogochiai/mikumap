@@ -1,6 +1,6 @@
 # mikumap
 
-![](./img/logo.png){: width="300"}
+![](./img/logo.png)
 
 ## 機能
 - ノードにコメントをつなげられる
@@ -13,6 +13,6 @@
 - デザインがミクっぽい
 
 ## 使い方
-- [] [milkcocoa](mlkcca.com)でappを作ってappidをjs/mikumap.jsの最初の行に入れる
-- [] とりあえず[bitbaloon](https://www.bitballoon.com/)でホスティングする。でもmilkcocoa hostingももうすぐ出るよ。
-- [] 自分なりに改造してみよう！
+- [ ] [milkcocoa](mlkcca.com)でappを作ってappidをjs/mikumap.jsの最初の行に入れる
+- [ ] とりあえず[bitbaloon](https://www.bitballoon.com/)でホスティングする。でもmilkcocoa hostingももうすぐ出るよ。
+- [ ] 自分なりに改造してみよう！
