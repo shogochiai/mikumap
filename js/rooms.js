@@ -1,4 +1,4 @@
-var milkcocoa = new MilkCocoa("https://io-shzxjl57i.mlkcca.com");
+var milkcocoa = new MilkCocoa("https://<yourappid>.mlkcca.com");
 var ds_rooms = milkcocoa.dataStore('rooms');
 var ds_chats = milkcocoa.dataStore('chats');
 var ds_members = milkcocoa.dataStore('members');

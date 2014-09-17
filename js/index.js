@@ -1,4 +1,4 @@
-var milkcocoa = new MilkCocoa("https://io-shzxjl57i.mlkcca.com");
+var milkcocoa = new MilkCocoa("https://<yourappid>.mlkcca.com");
 
 $(document).ready(function() {
     var textbox = $('.index--create-room');

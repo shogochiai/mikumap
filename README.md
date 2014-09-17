@@ -13,6 +13,6 @@
 - デザインがミクっぽい
 
 ## 使い方
-- [ ] [milkcocoa](mlkcca.com)でappを作ってappidをjs/mikumap.jsの最初の行に入れる
+- [ ] [milkcocoa](mlkcca.com)でappを作ってappidをjs/mikumap.js js/rooms.js js/index.jsの最初の行に入れる
 - [ ] とりあえず[bitbaloon](https://www.bitballoon.com/)でホスティングする。でもmilkcocoa hostingももうすぐ出るよ。
 - [ ] 自分なりに改造してみよう！

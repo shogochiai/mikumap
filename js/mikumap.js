@@ -1,4 +1,4 @@
-var milkcocoa = new MilkCocoa("https://io-<your app id>.mlkcca.com");
+var milkcocoa = new MilkCocoa("https://<yourappid>.mlkcca.com");
 var ROOT;
 var DICTIONARY = {};
 var user_id;
