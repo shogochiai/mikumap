@@ -1,6 +1,4 @@
-var milkcocoa = new MilkCocoa("https://<yourappid>.mlkcca.com");
-
-$(document).ready(function() {
+$(function() {
     var textbox = $('.index--create-room');
     textbox.on("keydown", function(e){
         if (e.which === 13) {
