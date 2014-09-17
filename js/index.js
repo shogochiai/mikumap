@@ -1,9 +1,8 @@
 $(function() {
     var textbox = $('.index--create-room');
+	var url = "/mikumap.html#" + escapeHTML(textbox.val());
     textbox.on("keydown", function(e){
-        if (e.which === 13) {
-            location.href = "/mikumap.html#" + escapeHTML(textbox.val());
-        }
+        if (e.which === 13) location.href = url;
     });
 });
 
